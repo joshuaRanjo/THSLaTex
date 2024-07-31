@@ -1,0 +1,17 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%   Filename    : abstract.tex 
+%
+%   Description : This file will contain your abstract.
+%                 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Design and Implementation Issues}
+\label{sec:designAndImplementation}
+
+\section{Conic Object Readability and Recognition}
+Initially, conic objects resembled objects that existed within the world space. However, a concern arose that the players might not realize that conic objects can be positioned within terrain or go through "solid" objects that the player would not be able to go through. To make it clear that conic objects are able to have said behavior, the sprites used were changed to resemble "light constructs" and added a level that demonstrates that the objects could move through terrain.
+\section{Conic Equation Signposting}
+During the game's initial testing, a concern arose: During gameplay, testers barely noticed or looked at the equation of the object they were manipulating; this is caused by the equation's position on the screen being above the UI controls, where testers would look at the object being manipulated and then to the UI controls and back to the object without taking a look at the equation. To make the object's equation more apparent and noticeable, a floating text box containing the equation was added. The text box's position was dependent on where the object being manipulate was located as to not block vision of the object.
+\section{Level Order and Progression}
+Initially, the levels were ordered by their complexity to complete, with no regard to the focused conic type of the level. This type of ordering could lead to players being overwhelmed with the number of new concepts being introduced by each shape. The levels were now reordered into sections, where each section focused on a conic shape. The current order is as follows: Circles $>$ Ellipses $>$ Parabolas $>$ Hyperbolas. Ordering by complexity was still followed within these sections.
